@@ -1,0 +1,17 @@
+{
+  "name": "socket-chat-example",
+  "version": "1.0.0",
+  "description": "socket chat app ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "stop": "taskkill -f -im node.exe",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
